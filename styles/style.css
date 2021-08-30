@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav > a, nav > img {
+    padding: 10px 5px;
+    margin-right: 10px;
+}
+
+.nav-right {
+    font-size: 0.87em;
+}
+
+.signin {
+    background-color:rgb(26, 115, 232);
+    color: white;
+    padding: 10px 23px;
+    border-radius: 5px;
+}
+
+.signin:hover {
+    background-color: rgb(63, 120, 219);
+}
+
+.right-icons:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.searchbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    width: 550px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.searchbar-container > input {
+    flex-grow: 1;
+    border: none;
+}
